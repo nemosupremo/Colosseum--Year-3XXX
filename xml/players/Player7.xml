@@ -1,0 +1,966 @@
+<?xml version="1.0" ?>
+<playerinfo>
+	<headinfo basex='15' basey='17' eyey='16' eyex='10' />
+	<arm1info>
+		<info basex='19' basey='4' handx='8' handy='3' />
+		<info basex='19' basey='4' handx='7' handy='6' />
+		<info basex='19' basey='4' handx='6' handy='11' />
+		<info basex='19' basey='4' handx='7' handy='15' />
+		<info basex='19' basey='4' handx='8' handy='19' />
+		<info basex='19' basey='4' handx='14' handy='24' />
+		<info basex='19' basey='4' handx='17' handy='28' />
+	</arm1info>
+	<arm2info>
+		<info basex='19' basey='4' handx='8' handy='3' />
+		<info basex='19' basey='4' handx='7' handy='6' />
+		<info basex='19' basey='4' handx='6' handy='11' />
+		<info basex='19' basey='4' handx='7' handy='15' />
+		<info basex='19' basey='4' handx='8' handy='19' />
+		<info basex='19' basey='4' handx='14' handy='24' />
+		<info basex='19' basey='4' handx='17' handy='28' />
+	</arm2info>
+	<bbinfo>
+		<images>
+			<image id='0' tw='10' th='5'>P7_Body.png</image>
+			<image id='1' tw='6' th='1'>P7_Head.png</image>
+			<image id='2' tw='7' th='1'>P7_Arm1.png</image>
+			<image id='3' tw='6' th='1'>P7_Arm2.png</image>
+		</images>
+		<actions>
+			<action name='stand' repeat='1'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-7' y1='-41' x2='5' y2='-2'>
+						<sprite type='0' tile='3' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-34' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-31' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-41' x2='5' y2='-2'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-41' x2='5' y2='-2'>
+						<sprite type='0' tile='1' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-32' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-32' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-29' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-41' x2='5' y2='-2'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-41' x2='5' y2='-2'>
+						<sprite type='0' tile='3' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='1' x='-2' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-34' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-31' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-41' x2='5' y2='-2'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-41' x2='5' y2='-2'>
+						<sprite type='0' tile='1' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-32' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-32' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-29' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-41' x2='5' y2='-2'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='run_l' repeat='1'>
+				<events>
+					<event key='1' name='Step' x='-13' y='-3' />
+					<event key='6' name='Step' x='-13' y='-1' />
+				</events>
+				<animation>
+					<frame ms='70' x1='-7' y1='-43' x2='7' y2='1'>
+						<sprite type='0' tile='10' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-34' angle='0.0' />
+						<sprite type='3' tile='2' x='-2' y='-31' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-7' y1='-43' x2='7' y2='1'>
+						<sprite type='0' tile='11' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-1' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-34' angle='0.0' />
+						<sprite type='3' tile='2' x='-2' y='-31' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-7' y1='-43' x2='7' y2='1'>
+						<sprite type='0' tile='12' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='3' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-2' y='-30' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-7' y1='-43' x2='7' y2='1'>
+						<sprite type='0' tile='13' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-1' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-34' angle='0.0' />
+						<sprite type='3' tile='2' x='-2' y='-31' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-7' y1='-43' x2='7' y2='1'>
+						<sprite type='0' tile='14' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-35' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-35' angle='0.0' />
+						<sprite type='3' tile='2' x='-2' y='-32' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-7' y1='-43' x2='7' y2='1'>
+						<sprite type='0' tile='15' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-34' angle='0.0' />
+						<sprite type='3' tile='2' x='-2' y='-31' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-7' y1='-43' x2='7' y2='1'>
+						<sprite type='0' tile='16' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-1' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-34' angle='0.0' />
+						<sprite type='3' tile='2' x='-2' y='-31' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-7' y1='-43' x2='7' y2='1'>
+						<sprite type='0' tile='17' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='3' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-2' y='-30' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-7' y1='-43' x2='7' y2='1'>
+						<sprite type='0' tile='18' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-1' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-34' angle='0.0' />
+						<sprite type='3' tile='2' x='-2' y='-31' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-7' y1='-43' x2='7' y2='1'>
+						<sprite type='0' tile='19' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-35' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-35' angle='0.0' />
+						<sprite type='3' tile='2' x='-2' y='-32' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='run_r' repeat='1'>
+				<events>
+					<event key='2' name='Step' x='13' y='-1' />
+					<event key='7' name='Step' x='16' y='-2' />
+				</events>
+				<animation>
+					<frame ms='70' x1='-8' y1='-41' x2='5' y2='0'>
+						<sprite type='0' tile='12' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-32' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-29' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-8' y1='-41' x2='5' y2='0'>
+						<sprite type='0' tile='11' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='-2' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-8' y1='-41' x2='5' y2='0'>
+						<sprite type='0' tile='10' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-2' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-8' y1='-41' x2='5' y2='0'>
+						<sprite type='0' tile='19' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='-2' y='-35' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-34' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-31' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-8' y1='-41' x2='5' y2='0'>
+						<sprite type='0' tile='18' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-2' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-8' y1='-41' x2='5' y2='0'>
+						<sprite type='0' tile='17' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-32' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-29' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-8' y1='-41' x2='5' y2='0'>
+						<sprite type='0' tile='16' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='-2' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-8' y1='-41' x2='5' y2='0'>
+						<sprite type='0' tile='15' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-2' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-8' y1='-41' x2='5' y2='0'>
+						<sprite type='0' tile='14' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-2' y='-35' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-34' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-31' angle='0.0' />
+					</frame>
+					<frame ms='70' x1='-8' y1='-41' x2='5' y2='0'>
+						<sprite type='0' tile='13' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='-2' y='-34' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-33' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='jump_start' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-7' y1='-39' x2='6' y2='0'>
+						<sprite type='0' tile='0' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-30' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-31' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-28' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='jump_ing_l' repeat='1'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-7' y1='-42' x2='6' y2='-9'>
+						<sprite type='0' tile='8' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-3' y='-36' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-33' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-42' x2='6' y2='-9'>
+						<sprite type='0' tile='8' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-2' y='-36' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-33' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-42' x2='6' y2='-9'>
+						<sprite type='0' tile='8' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='3' x='-3' y='-36' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-33' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-42' x2='6' y2='-9'>
+						<sprite type='0' tile='8' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-2' y='-36' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-33' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='jump_ing' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-7' y1='-43' x2='4' y2='-3'>
+						<sprite type='0' tile='7' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-36' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-33' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='jump_ing_r' repeat='1'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-6' y1='-45' x2='5' y2='-7'>
+						<sprite type='0' tile='9' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-37' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-37' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-34' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-6' y1='-45' x2='5' y2='-7'>
+						<sprite type='0' tile='9' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='-2' y='-37' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-37' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-34' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-6' y1='-45' x2='5' y2='-7'>
+						<sprite type='0' tile='9' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-2' y='-37' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-37' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-34' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-6' y1='-45' x2='5' y2='-7'>
+						<sprite type='0' tile='9' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='-2' y='-37' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-37' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-34' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='jump_end' repeat='0'>
+				<events>
+					<event key='0' name='Step' x='5' y='-2' />
+				</events>
+				<animation>
+					<frame ms='100' x1='-8' y1='-35' x2='5' y2='-4'>
+						<sprite type='0' tile='0' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-29' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-31' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-28' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='sit_start' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-7' y1='-32' x2='7' y2='1'>
+						<sprite type='0' tile='20' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-25' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-27' angle='0.0' />
+						<sprite type='3' tile='2' x='-4' y='-23' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='sit_ing' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-9' y1='-28' x2='5' y2='1'>
+						<sprite type='0' tile='21' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-3' y='-19' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-21' angle='0.0' />
+						<sprite type='3' tile='2' x='-4' y='-17' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='sit_end' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-8' y1='-33' x2='7' y2='1'>
+						<sprite type='0' tile='20' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-26' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-27' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-23' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='sitwalk' repeat='1'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-7' y1='-31' x2='7' y2='0'>
+						<sprite type='0' tile='22' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-22' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-23' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-20' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-31' x2='7' y2='0'>
+						<sprite type='0' tile='23' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-21' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-22' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-19' angle='0.0' />
+					</frame>
+					<frame ms='200' x1='-7' y1='-31' x2='7' y2='0'>
+						<sprite type='0' tile='24' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-19' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-21' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-18' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-31' x2='7' y2='0'>
+						<sprite type='0' tile='23' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-21' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-22' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-19' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-7' y1='-31' x2='7' y2='0'>
+						<sprite type='0' tile='22' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-22' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-23' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-20' angle='0.0' />
+					</frame>
+					<frame ms='200' x1='-7' y1='-31' x2='7' y2='0'>
+						<sprite type='0' tile='25' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-20' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-21' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-18' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='lie_start' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='50' x1='-9' y1='-29' x2='4' y2='0'>
+						<sprite type='0' tile='26' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-3' y='-21' angle='0.0' />
+						<sprite type='2' tile='5' x='2' y='-21' angle='0.2' />
+						<sprite type='3' tile='2' x='-3' y='-19' angle='-0.5' />
+						<sprite type='4' tile='0' x='-1' y='-5' angle='-0.2' />
+					</frame>
+					<frame ms='50' x1='-8' y1='-26' x2='4' y2='-1'>
+						<sprite type='0' tile='27' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-3' y='-18' angle='0.0' />
+						<sprite type='2' tile='4' x='0' y='-18' angle='-0.3' />
+						<sprite type='3' tile='3' x='-3' y='-19' angle='-0.8' />
+						<sprite type='4' tile='0' x='-1' y='-6' angle='-0.2' />
+					</frame>
+					<frame ms='50' x1='-10' y1='-24' x2='27' y2='-13'>
+						<sprite type='0' tile='33' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-7' y='-22' angle='0.0' />
+						<sprite type='2' tile='4' x='-3' y='-25' angle='0.0' />
+						<sprite type='3' tile='2' x='-4' y='-22' angle='0.0' />
+						<sprite type='4' tile='0' x='-11' y='-16' angle='-0.3' />
+					</frame>
+					<frame ms='50' x1='-9' y1='-22' x2='27' y2='-10'>
+						<sprite type='0' tile='34' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='3' x='-6' y='-22' angle='0.0' />
+						<sprite type='2' tile='2' x='-2' y='-25' angle='0.0' />
+						<sprite type='3' tile='3' x='-1' y='-24' angle='-0.2' />
+						<sprite type='4' tile='0' x='-9' y='-23' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='lie_ing' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-8' y1='-11' x2='31' y2='1'>
+						<sprite type='0' tile='35' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-3' y='-6' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-10' angle='0.0' />
+						<sprite type='3' tile='2' x='-2' y='-7' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='lie_end' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='50' x1='-8' y1='-24' x2='26' y2='-11'>
+						<sprite type='0' tile='34' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-5' y='-21' angle='0.0' />
+						<sprite type='2' tile='5' x='0' y='-24' angle='0.2' />
+						<sprite type='3' tile='2' x='1' y='-21' angle='-0.7' />
+						<sprite type='4' tile='0' x='-4' y='-10' angle='-0.2' />
+					</frame>
+					<frame ms='50' x1='-10' y1='-25' x2='4' y2='-1'>
+						<sprite type='0' tile='27' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-5' y='-19' angle='0.0' />
+						<sprite type='2' tile='4' x='1' y='-21' angle='0.2' />
+						<sprite type='3' tile='2' x='-5' y='-16' angle='-0.5' />
+						<sprite type='4' tile='0' x='-8' y='-14' angle='-0.3' />
+					</frame>
+					<frame ms='50' x1='-8' y1='-27' x2='7' y2='0'>
+						<sprite type='0' tile='26' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='-4' y='-20' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-22' angle='-0.5' />
+						<sprite type='3' tile='2' x='-1' y='-17' angle='0.1' />
+						<sprite type='4' tile='0' x='0' y='-13' angle='-0.4' />
+					</frame>
+				</animation>
+			</action>
+			<action name='liewalk' repeat='1'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='150' x1='-9' y1='-12' x2='30' y2='1'>
+						<sprite type='0' tile='35' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-4' y='-5' angle='0.0' />
+						<sprite type='2' tile='4' x='3' y='-8' angle='0.8' />
+						<sprite type='3' tile='1' x='-2' y='-4' angle='0.7' />
+						<sprite type='4' tile='0' x='-9' y='-10' angle='0.0' />
+					</frame>
+					<frame ms='150' x1='-9' y1='-12' x2='30' y2='1'>
+						<sprite type='0' tile='36' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-6' y='-8' angle='0.0' />
+						<sprite type='2' tile='2' x='0' y='-9' angle='0.5' />
+						<sprite type='3' tile='3' x='-2' y='-9' angle='0.0' />
+						<sprite type='4' tile='0' x='-8' y='-11' angle='0.4' />
+					</frame>
+					<frame ms='200' x1='-9' y1='-12' x2='30' y2='1'>
+						<sprite type='0' tile='37' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-3' y='-9' angle='0.0' />
+						<sprite type='2' tile='1' x='0' y='-8' angle='-0.7' />
+						<sprite type='3' tile='5' x='0' y='-8' angle='-1.6' />
+						<sprite type='4' tile='0' x='-3' y='-5' angle='0.0' />
+					</frame>
+					<frame ms='150' x1='-9' y1='-12' x2='30' y2='1'>
+						<sprite type='0' tile='36' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-4' y='-7' angle='0.0' />
+						<sprite type='2' tile='3' x='1' y='-9' angle='0.5' />
+						<sprite type='3' tile='3' x='1' y='-8' angle='-0.1' />
+						<sprite type='4' tile='0' x='-9' y='-8' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='boost_left' repeat='1'>
+				<events>
+					<event key='0' name='Booster' x='12' y='-16' />
+					<event key='1' name='Booster' x='12' y='-15' />
+					<event key='2' name='Booster' x='12' y='-15' />
+					<event key='3' name='Booster' x='13' y='-14' />
+				</events>
+				<animation>
+					<frame ms='100' x1='-8' y1='-41' x2='5' y2='-10'>
+						<sprite type='0' tile='6' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-3' y='-36' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-32' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-8' y1='-41' x2='5' y2='-10'>
+						<sprite type='0' tile='6' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-2' y='-36' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-32' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-8' y1='-41' x2='5' y2='-10'>
+						<sprite type='0' tile='6' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='3' x='-3' y='-36' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-32' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-8' y1='-41' x2='5' y2='-10'>
+						<sprite type='0' tile='6' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-2' y='-36' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-32' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='boost_mid' repeat='0'>
+				<events>
+					<event key='0' name='Booster' x='4' y='-11' />
+				</events>
+				<animation>
+					<frame ms='100' x1='-9' y1='-40' x2='5' y2='-6'>
+						<sprite type='0' tile='4' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-36' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-33' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='boost_right' repeat='1'>
+				<events>
+					<event key='0' name='Booster' x='-6' y='-12' />
+					<event key='1' name='Booster' x='-6' y='-12' />
+					<event key='2' name='Booster' x='-6' y='-11' />
+					<event key='3' name='Booster' x='-5' y='-11' />
+				</events>
+				<animation>
+					<frame ms='100' x1='-8' y1='-41' x2='4' y2='-9'>
+						<sprite type='0' tile='5' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-1' y='-37' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-33' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-8' y1='-41' x2='4' y2='-9'>
+						<sprite type='0' tile='5' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='-1' y='-37' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-33' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-8' y1='-41' x2='4' y2='-9'>
+						<sprite type='0' tile='5' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-1' y='-37' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-33' angle='0.0' />
+					</frame>
+					<frame ms='100' x1='-8' y1='-41' x2='4' y2='-9'>
+						<sprite type='0' tile='5' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='-1' y='-37' angle='0.0' />
+						<sprite type='2' tile='3' x='2' y='-36' angle='0.0' />
+						<sprite type='3' tile='2' x='-3' y='-33' angle='0.0' />
+					</frame>
+				</animation>
+			</action>
+			<action name='tumble_l' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='50' x1='-10' y1='-27' x2='7' y2='0'>
+						<sprite type='0' tile='26' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-4' y='-20' angle='0.0' />
+						<sprite type='2' tile='6' x='0' y='-21' angle='0.5' />
+						<sprite type='3' tile='2' x='-2' y='-19' angle='-0.2' />
+					</frame>
+					<frame ms='100' x1='-10' y1='-27' x2='7' y2='0'>
+						<sprite type='0' tile='27' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='3' x='-6' y='-17' angle='0.0' />
+						<sprite type='2' tile='4' x='1' y='-19' angle='-0.3' />
+						<sprite type='3' tile='3' x='-3' y='-16' angle='-1.0' />
+					</frame>
+					<frame ms='50' x1='-11' y1='-22' x2='7' y2='0'>
+						<sprite type='0' tile='28' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-2' y='-20' angle='-1.4' />
+						<sprite type='2' tile='2' x='1' y='-20' angle='-0.2' />
+						<sprite type='3' tile='4' x='-2' y='-16' angle='-1.0' />
+					</frame>
+					<frame ms='50' x1='-12' y1='-23' x2='7' y2='-3'>
+						<sprite type='0' tile='29' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-7' y='-21' angle='-2.2' />
+						<sprite type='2' tile='2' x='-6' y='-24' angle='-0.9' />
+						<sprite type='3' tile='4' x='-3' y='-18' angle='-1.3' />
+					</frame>
+					<frame ms='50' x1='-9' y1='-20' x2='10' y2='-1'>
+						<sprite type='0' tile='30' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-10' y='-13' angle='-3.3' />
+						<sprite type='2' tile='2' x='-8' y='-15' angle='-1.9' />
+						<sprite type='3' tile='4' x='-2' y='-14' angle='-2.1' />
+					</frame>
+					<frame ms='50' x1='-8' y1='-19' x2='11' y2='3'>
+						<sprite type='0' tile='31' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='1' y='-1' angle='1.3' />
+						<sprite type='2' tile='2' x='-2' y='-3' angle='2.9' />
+						<sprite type='3' tile='4' x='-2' y='-7' angle='2.5' />
+					</frame>
+					<frame ms='50' x1='-7' y1='-22' x2='12' y2='0'>
+						<sprite type='0' tile='32' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='5' y='-6' angle='0.9' />
+						<sprite type='2' tile='4' x='4' y='-7' angle='1.5' />
+						<sprite type='3' tile='4' x='2' y='-10' angle='1.8' />
+					</frame>
+					<frame ms='50' x1='-10' y1='-24' x2='5' y2='0'>
+						<sprite type='0' tile='27' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-5' y='-19' angle='0.0' />
+						<sprite type='2' tile='5' x='2' y='-20' angle='0.4' />
+						<sprite type='3' tile='2' x='-1' y='-14' angle='-0.2' />
+					</frame>
+				</animation>
+			</action>
+			<action name='tumble_r' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='50' x1='-9' y1='-26' x2='9' y2='1'>
+						<sprite type='0' tile='27' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='3' x='-4' y='-19' angle='0.0' />
+						<sprite type='2' tile='5' x='1' y='-20' angle='0.2' />
+						<sprite type='3' tile='2' x='-2' y='-16' angle='-0.5' />
+					</frame>
+					<frame ms='50' x1='-6' y1='-23' x2='13' y2='0'>
+						<sprite type='0' tile='32' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='6' y='-6' angle='1.0' />
+						<sprite type='2' tile='2' x='5' y='-6' angle='2.1' />
+						<sprite type='3' tile='4' x='2' y='-9' angle='1.8' />
+					</frame>
+					<frame ms='50' x1='-6' y1='-19' x2='10' y2='4'>
+						<sprite type='0' tile='31' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-1' y='-1' angle='1.3' />
+						<sprite type='2' tile='2' x='-2' y='-3' angle='2.8' />
+						<sprite type='3' tile='4' x='-2' y='-7' angle='2.5' />
+					</frame>
+					<frame ms='50' x1='-9' y1='-21' x2='8' y2='-1'>
+						<sprite type='0' tile='30' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-11' y='-13' angle='-3.5' />
+						<sprite type='2' tile='2' x='-8' y='-15' angle='-2.0' />
+						<sprite type='3' tile='4' x='-1' y='-15' angle='-2.1' />
+					</frame>
+					<frame ms='50' x1='-11' y1='-24' x2='7' y2='0'>
+						<sprite type='0' tile='29' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-7' y='-22' angle='-2.3' />
+						<sprite type='2' tile='2' x='-5' y='-23' angle='-1.0' />
+						<sprite type='3' tile='4' x='-5' y='-19' angle='-1.7' />
+					</frame>
+					<frame ms='100' x1='-11' y1='-25' x2='9' y2='0'>
+						<sprite type='0' tile='27' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-4' y='-17' angle='-0.1' />
+						<sprite type='2' tile='5' x='1' y='-20' angle='0.3' />
+						<sprite type='3' tile='4' x='-3' y='-17' angle='-0.5' />
+					</frame>
+					<frame ms='50' x1='-9' y1='-28' x2='9' y2='0'>
+						<sprite type='0' tile='26' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-3' y='-20' angle='0.0' />
+						<sprite type='2' tile='4' x='1' y='-21' angle='-0.6' />
+						<sprite type='3' tile='4' x='-5' y='-20' angle='-1.6' />
+					</frame>
+				</animation>
+			</action>
+			<action name='throw_start' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='20' x1='-9' y1='-36' x2='3' y2='-4'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-32' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-33' angle='0.0' />
+						<sprite type='3' tile='3' x='-1' y='-31' angle='-0.5' />
+					</frame>
+					<frame ms='20' x1='-9' y1='-36' x2='3' y2='-4'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-32' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-33' angle='0.0' />
+						<sprite type='3' tile='3' x='-1' y='-33' angle='-1.8' />
+					</frame>
+					<frame ms='20' x1='-9' y1='-36' x2='3' y2='-4'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-32' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-33' angle='0.0' />
+						<sprite type='3' tile='1' x='-1' y='-34' angle='2.8' />
+					</frame>
+					<frame ms='20' x1='-9' y1='-36' x2='3' y2='-4'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-32' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-33' angle='0.0' />
+						<sprite type='3' tile='1' x='-1' y='-35' angle='2.2' />
+					</frame>
+					<frame ms='20' x1='-9' y1='-36' x2='3' y2='-4'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-32' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-33' angle='0.0' />
+						<sprite type='3' tile='0' x='-3' y='-34' angle='1.8' />
+					</frame>
+				</animation>
+			</action>
+			<action name='throw_end' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-8' y1='-38' x2='5' y2='0'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-32' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-33' angle='0.0' />
+						<sprite type='3' tile='0' x='-2' y='-31' angle='1.4' />
+					</frame>
+				</animation>
+			</action>
+			<action name='change_start' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-9' y1='-38' x2='4' y2='-2'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-32' angle='-0.3' />
+						<sprite type='3' tile='2' x='-1' y='-28' angle='-0.3' />
+						<sprite type='4' tile='0' x='-3' y='-24' angle='-0.5' />
+					</frame>
+					<frame ms='50' x1='-8' y1='-37' x2='6' y2='0'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='2' x='2' y='-31' angle='-0.8' />
+						<sprite type='3' tile='2' x='-1' y='-28' angle='-0.8' />
+						<sprite type='4' tile='0' x='-2' y='-25' angle='-0.9' />
+					</frame>
+					<frame ms='50' x1='-8' y1='-37' x2='6' y2='0'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='1' x='2' y='-31' angle='-1.3' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='-1.5' />
+						<sprite type='4' tile='0' x='-3' y='-26' angle='-1.5' />
+					</frame>
+					<frame ms='300' x1='-8' y1='-37' x2='6' y2='0'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='0' x='2' y='-31' angle='-2.2' />
+						<sprite type='3' tile='2' x='-1' y='-28' angle='-1.1' />
+						<sprite type='4' tile='0' x='0' y='-27' angle='-1.9' />
+					</frame>
+					<frame ms='100' x1='-8' y1='-37' x2='6' y2='0'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='5' x='4' y='-32' angle='0.2' />
+						<sprite type='3' tile='2' x='-1' y='-28' angle='-0.6' />
+						<sprite type='4' tile='0' x='-6' y='-19' angle='-1.1' />
+					</frame>
+				</animation>
+			</action>
+			<action name='change_end' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-9' y1='-38' x2='4' y2='-2'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-32' angle='0.0' />
+						<sprite type='2' tile='5' x='4' y='-32' angle='0.8' />
+						<sprite type='3' tile='2' x='-3' y='-30' angle='-0.6' />
+						<sprite type='4' tile='0' x='-11' y='-26' angle='-0.4' />
+					</frame>
+				</animation>
+			</action>
+			<action name='reload' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='300' x1='-8' y1='-38' x2='4' y2='-1'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-32' angle='0.7' />
+						<sprite type='3' tile='2' x='-3' y='-28' angle='0.8' />
+						<sprite type='4' tile='0' x='-6' y='-31' angle='0.7' />
+					</frame>
+					<frame ms='100' x1='-8' y1='-38' x2='4' y2='-1'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-32' angle='0.4' />
+						<sprite type='3' tile='3' x='-3' y='-28' angle='0.1' />
+						<sprite type='4' tile='0' x='-6' y='-29' angle='0.3' />
+					</frame>
+					<frame ms='400' x1='-8' y1='-38' x2='4' y2='-1'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-32' angle='0.8' />
+						<sprite type='3' tile='1' x='-3' y='-28' angle='-0.1' />
+						<sprite type='4' tile='0' x='-6' y='-31' angle='0.7' />
+					</frame>
+					<frame ms='50' x1='-8' y1='-38' x2='4' y2='-1'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-32' angle='0.5' />
+						<sprite type='3' tile='2' x='-3' y='-28' angle='-0.2' />
+						<sprite type='4' tile='0' x='-6' y='-29' angle='0.5' />
+					</frame>
+					<frame ms='500' x1='-8' y1='-38' x2='4' y2='-1'>
+						<sprite type='0' tile='2' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='0' x='-2' y='-33' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-32' angle='0.3' />
+						<sprite type='3' tile='2' x='-2' y='-29' angle='0.1' />
+						<sprite type='4' tile='0' x='-5' y='-28' angle='0.2' />
+					</frame>
+				</animation>
+			</action>
+			<action name='die_start' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='-3' y1='-36' x2='10' y2='-5'>
+						<sprite type='0' tile='40' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='1' x='8' y='-32' angle='-0.2' />
+						<sprite type='2' tile='3' x='11' y='-31' angle='0.6' />
+						<sprite type='3' tile='2' x='6' y='-33' angle='-0.1' />
+					</frame>
+					<frame ms='100' x1='-5' y1='-38' x2='21' y2='-20'>
+						<sprite type='0' tile='41' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='21' y='-37' angle='0.1' />
+						<sprite type='2' tile='4' x='22' y='-35' angle='0.6' />
+						<sprite type='3' tile='2' x='18' y='-35' angle='0.7' />
+					</frame>
+					<frame ms='100' x1='1' y1='-47' x2='30' y2='-31'>
+						<sprite type='0' tile='42' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='26' y='-41' angle='0.5' />
+						<sprite type='2' tile='4' x='25' y='-38' angle='0.5' />
+						<sprite type='3' tile='2' x='22' y='-42' angle='0.7' />
+					</frame>
+					<frame ms='100' x1='9' y1='-39' x2='38' y2='-23'>
+						<sprite type='0' tile='43' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='32' y='-30' angle='1.0' />
+						<sprite type='2' tile='4' x='30' y='-27' angle='1.1' />
+						<sprite type='3' tile='2' x='29' y='-31' angle='0.8' />
+					</frame>
+					<frame ms='100' x1='9' y1='-43' x2='34' y2='-20'>
+						<sprite type='0' tile='44' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='32' y='-27' angle='1.1' />
+						<sprite type='2' tile='3' x='29' y='-26' angle='0.6' />
+						<sprite type='3' tile='2' x='31' y='-30' angle='0.5' />
+					</frame>
+				</animation>
+			</action>
+			<action name='die_ing' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='100' x1='8' y1='-39' x2='35' y2='-22'>
+						<sprite type='0' tile='44' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='32' y='-27' angle='1.1' />
+						<sprite type='2' tile='3' x='30' y='-26' angle='0.9' />
+						<sprite type='3' tile='1' x='30' y='-28' angle='0.7' />
+					</frame>
+				</animation>
+			</action>
+			<action name='die_end' repeat='0'>
+				<events>
+				</events>
+				<animation>
+					<frame ms='70' x1='17' y1='-14' x2='53' y2='0'>
+						<sprite type='0' tile='45' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='45' y='-7' angle='1.1' />
+						<sprite type='2' tile='5' x='45' y='-2' angle='2.0' />
+						<sprite type='3' tile='2' x='42' y='-6' angle='1.4' />
+					</frame>
+					<frame ms='70' x1='16' y1='-9' x2='57' y2='0'>
+						<sprite type='0' tile='46' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='45' y='-8' angle='1.6' />
+						<sprite type='2' tile='5' x='47' y='-2' angle='2.5' />
+						<sprite type='3' tile='2' x='44' y='-7' angle='0.8' />
+					</frame>
+					<frame ms='70' x1='16' y1='-9' x2='57' y2='0'>
+						<sprite type='0' tile='47' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='4' x='46' y='-7' angle='2.0' />
+						<sprite type='2' tile='4' x='47' y='-3' angle='1.6' />
+						<sprite type='3' tile='2' x='45' y='-8' angle='0.5' />
+					</frame>
+					<frame ms='70' x1='16' y1='-9' x2='57' y2='0'>
+						<sprite type='0' tile='47' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='1' x='46' y='-6' angle='1.4' />
+						<sprite type='2' tile='4' x='47' y='-3' angle='1.5' />
+						<sprite type='3' tile='2' x='44' y='-7' angle='0.8' />
+					</frame>
+					<frame ms='200' x1='16' y1='-9' x2='57' y2='0'>
+						<sprite type='0' tile='47' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='1' x='46' y='-5' angle='2.0' />
+						<sprite type='2' tile='4' x='46' y='-3' angle='1.1' />
+						<sprite type='3' tile='2' x='44' y='-7' angle='0.1' />
+					</frame>
+				</animation>
+			</action>
+			<action name='attack_one' repeat='0'>
+				<events>
+					<event key='2' name='Attack' x='-25' y='-21' />
+					<event key='3' name='Attack' x='-41' y='-27' />
+					<event key='4' name='Attack' x='-54' y='-30' />
+					<event key='5' name='Step' x='-21' y='-3' />
+				</events>
+				<animation>
+					<frame ms='50' x1='-7' y1='-34' x2='8' y2='-2'>
+						<sprite type='0' tile='38' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='5' x='-2' y='-24' angle='0.0' />
+						<sprite type='2' tile='3' x='3' y='-27' angle='-0.5' />
+						<sprite type='3' tile='2' x='-1' y='-24' angle='-0.5' />
+						<sprite type='4' tile='0' x='0' y='-19' angle='-0.3' />
+					</frame>
+					<frame ms='50' x1='-16' y1='-39' x2='0' y2='0'>
+						<sprite type='0' tile='39' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-12' y='-32' angle='0.0' />
+						<sprite type='2' tile='3' x='-8' y='-33' angle='-0.8' />
+						<sprite type='3' tile='1' x='-11' y='-33' angle='-0.4' />
+						<sprite type='4' tile='0' x='-8' y='-23' angle='-0.2' />
+					</frame>
+					<frame ms='30' x1='-29' y1='-40' x2='-13' y2='-9'>
+						<sprite type='0' tile='48' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='3' x='-23' y='-36' angle='-0.1' />
+						<sprite type='2' tile='3' x='-19' y='-35' angle='-1.6' />
+						<sprite type='3' tile='2' x='-23' y='-35' angle='-0.8' />
+						<sprite type='4' tile='0' x='-7' y='-32' angle='-0.8' />
+					</frame>
+					<frame ms='30' x1='-29' y1='-40' x2='-14' y2='-10'>
+						<sprite type='0' tile='48' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='2' x='-23' y='-35' angle='0.0' />
+						<sprite type='2' tile='1' x='-20' y='-35' angle='-1.3' />
+						<sprite type='3' tile='2' x='-23' y='-33' angle='-0.2' />
+						<sprite type='4' tile='0' x='-18' y='-28' angle='-0.1' />
+					</frame>
+					<frame ms='100' x1='-29' y1='-43' x2='-14' y2='-11'>
+						<sprite type='0' tile='48' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='3' x='-24' y='-36' angle='-0.2' />
+						<sprite type='2' tile='5' x='-21' y='-37' angle='0.9' />
+						<sprite type='3' tile='2' x='-24' y='-34' angle='0.1' />
+						<sprite type='4' tile='0' x='-38' y='-30' angle='0.0' />
+					</frame>
+					<frame ms='50' x1='-35' y1='-33' x2='-19' y2='-2'>
+						<sprite type='0' tile='49' x='0' y='0' angle='0.0' />
+						<sprite type='1' tile='3' x='-31' y='-23' angle='0.0' />
+						<sprite type='2' tile='3' x='-26' y='-25' angle='-0.5' />
+						<sprite type='3' tile='2' x='-30' y='-24' angle='-0.2' />
+						<sprite type='4' tile='0' x='-28' y='-12' angle='0.3' />
+					</frame>
+				</animation>
+			</action>
+		</actions>
+	</bbinfo>
+</playerinfo>

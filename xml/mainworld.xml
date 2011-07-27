@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<world anchor="tl" minx="0" maxx="3500" miny="200" maxy="1350" height="1119" graphic="stage.png">
+	<tile shape="RECT" x="-25" y="-800" width="24" height="1919" friction = "1"/>
+
+	<tile shape="RECT" x="0" y="34" width="1059" height="10" friction = "1"/>
+	<tile shape="RECT" x="1083" y="34" width="366" height="10" friction = "1"/>
+	<tile shape="RECT" x="1466" y="34" width="366" height="10" friction = "1"/>
+	<tile shape="RECT" x="1892" y="45" width="496" height="10" friction = "1"/>
+	<tile shape="RECT" x="2385" y="0" width="251" height="70" friction = "1"/>
+	<tile shape="RECT" x="2635" y="54" width="77" height="70" friction = "1"/>
+	<tile shape="RECT" x="2704" y="107" width="196" height="10" friction = "1"/>
+	<tile shape="RECT" x="2913" y="246" width="366" height="10" friction = "1"/>
+	<tile shape="RECT" x="2653" y="297" width="165" height="10" friction = "1"/>
+	<tile shape="RECT" x="2378" y="384" width="165" height="10" friction = "1"/>
+	<tile shape="RECT" x="2119" y="469" width="165" height="10" friction = "1"/>
+	<tile shape="RECT" x="622" y="474" width="1412" height="10" friction = "1"/>
+	<tile shape="RECT" x="479" y="503" width="101" height="10" friction = "1"/>
+	<tile shape="RECT" x="310" y="584" width="101" height="10" friction = "1"/>
+	<tile shape="RECT" x="160" y="691" width="101" height="10" friction = "1"/>
+	<tile shape="RECT" x="323" y="781" width="101" height="10" friction = "1"/>
+	<tile shape="RECT" x="479" y="838" width="101" height="10" friction = "1"/>
+	<tile shape="RECT" x="626" y="900" width="560" height="10" friction = "1"/>
+	<tile shape="RECT" x="1273" y="900" width="280" height="44" friction = "1"/>
+	<tile shape="RECT" x="1549" y="930" width="559" height="10" friction = "1"/>
+	<tile shape="RECT" x="2110" y="930" width="132" height="10" friction = "1"/>
+	<tile shape="RECT" x="2312" y="1003" width="132" height="10" friction = "1"/>
+	<tile shape="RECT" x="2314" y="866" width="74" height="10" friction = "1"/>
+	<tile shape="RECT" x="2475" y="793" width="74" height="10" friction = "1"/>
+	<tile shape="RECT" x="2617" y="738" width="74" height="10" friction = "1"/>
+	<tile shape="RECT" x="2771" y="725" width="557" height="10" friction = "1"/>
+	<tile shape="RECT" x="0" y="1041" width="305" height="50" friction = "1"/>
+	<tile shape="RECT" x="306" y="1065" width="44" height="10" friction = "1"/>
+	<tile shape="RECT" x="348" y="1077" width="3153" height="50" friction = "1"/>
+	
+	<tile shape="RECT" x="3500" y="-800" width="24" height="1919" friction = "1"/>
+</world>

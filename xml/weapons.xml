@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weapons>
+	<weapon>
+		<id>0</id>
+		<parent>0</parent>
+		<name>Pistol</name>
+		<width>10</width>
+		<height>5</height>
+		<x_off>0</x_off>
+		<y_off>0</y_off>
+		<max_clip>100</max_clip>
+		<max_bullets>100</max_bullets>
+		
+		<b_width>8</b_width>
+		<b_height>8</b_height>
+		<b_weight>4</b_weight>
+		<b_force>10</b_force>
+		<b_time>-1</b_time>
+		<b_damage>10</b_damage>
+	</weapon>
+</weapons>

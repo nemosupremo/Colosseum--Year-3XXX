@@ -1,0 +1,55 @@
+Colosseum: Year 3XXX
+
+Dependencies:
+    - pyBox2D 2.1 (http://code.google.com/p/pybox2d/)
+    - pygame (http://pygame.org/)
+    Windows users can find precompiled binaries for thier favorite platforms 
+    and modules at http://www.lfd.uci.edu/~gohlke/pythonlibs courtesy of 
+    Christoph Gohlke of University of California, Irvine.
+
+Running the Game:
+    python main.py
+
+Running the Server:
+    python Network/Server.py [port_number=62227]
+
+Instructions:
+    Connection and Lobby:
+        Type your player name and server name into the boxes and press connect. 
+        When connected, you will enter. In the lobby, you can chat with other 
+        players in the lobby by clicking the text box under the chat box, 
+        typing and pressing enter. 
+
+        The rooms will be listed in the ROOM box. Rooms can either be PLAYING 
+        or WAITING. If a room is PLAYING, that means a game is currently going
+        on. If it is WAITING, the room master is waiting to start the game.
+        You can JOIN a room by clicking a room and pressing join. Otherwise,
+        you can CREATE a room by pressing CREATE.
+
+        You can change your character by pressing ESC and then pressing
+        CHANGE CHARACTER, in the menu. You can also quit the game by pressing
+        QUIT GAME.
+
+   Waiting Room:
+        If you are the game master you can start the game by pressing START. It
+        does not matter how many players are in the room, as players can join
+        while the game is in progress. The Room can be left by pressing LEAVE.
+
+   In-game:
+        The object of the game is to get 15 kills. Movement is done by using
+        the WASD keys. Shooting is done by clicking the mouse. If you hover
+        over a weapon or health-pack (denoted by a glowing aura), it can be
+        picked up with E. You can leave the room by pressing ESC and then 
+        pressing LEAVE ROOM. The game ends when someone gets 15 kills.
+
+Notes:
+    This game is based on the now defunct game, Gunster: Rain of Bullets
+    (also known as Gunstriker: Reloaded Bullets in Japan). All the art
+    and sounds are lifted off that game as well as the game play. This 
+    project was not started as an attempt to revive the game. The style
+    of play was easy to code (this project is my first pygame + networking
+    type game, for a senior year high school CS project) and I was 
+    not very good at making my own art.
+
+Author: 
+    nemothekid <nwaribok@andrew.cmu.edu>
