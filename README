@@ -51,5 +51,10 @@ Notes:
     type game, for a senior year high school CS project) and I was 
     not very good at making my own art.
 
+    There is also a lot of code I thought was cool back in high school. 
+    For example division by two is done by "expr >> 1." Secondly, this
+    program was quickly ported from pyBox2d 2.1 to pyBox2D 2.1, so there
+    is some legacy code concerning this.
+
 Author: 
     nemothekid <nwaribok@andrew.cmu.edu>
