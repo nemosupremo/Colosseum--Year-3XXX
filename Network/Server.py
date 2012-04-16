@@ -41,7 +41,7 @@ class Player(object):
         self.lastTime = time()
 
     def getAddrLong(self, ip):
-        return struct.unpack('L',socket.inet_aton(ip))[0]
+        return struct.unpack('=L',socket.inet_aton(ip))[0]
 
     def resetGameData(self):
         self.gameData = Structs.playerDat.pack(-1,0,0,0,0,0,0,0)
