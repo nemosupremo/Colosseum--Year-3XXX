@@ -9,6 +9,7 @@ from threading import Thread
 import os
 import random
 import sys
+import bisect
 
 class Player(object):
     addr = None
@@ -543,7 +544,8 @@ Commands :
     def addPlayer(self, playerAddr, playerName):
         np = Player(self, self.nextPlayerId, playerAddr, playerName)
         self.nextPlayerId += 1
-        self.players.append(np)
+        #self.players.append(np)
+        bisect.insort(self.players, np)
         
         np.sendPlayerList(self.getPlayersInLobby(), -1, 0)
         np.sendRoomList(self.rooms)
@@ -558,6 +560,7 @@ Commands :
         newroom = Room(self, roomName, self.nextRoomId)
         self.nextRoomId += 1
         self.rooms.append(newroom)
+        bisect.insort(self.rooms, newroom)
         if newroom.join(hostPlayer):
             self.leave(hostPlayer, False)
         else:
